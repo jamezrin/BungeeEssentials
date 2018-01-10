@@ -1,0 +1,68 @@
+redis:
+  host: '192.168.1.124'
+  port: 6379
+  timeout: 2000 # This is redis default, you can change it if you wish
+  password: '' # If you do not have a password, leave it empty
+
+messages:
+  error-player-offline: '&cThat players is offline!'
+  error-noperms: '&cYou do not have permissions to use this command. This is a staff command!'
+  report-teleport-button: '&b[Teleport]'
+  report-teleport-button-text: '&aGo to the crime!'
+  report-message-staff: '[Report] %reporter% reported %reported% for %report%. Click on %teleport% to go to that server'
+  report-message-reporter: '[Report] You reported %reported% for %report%.\n&cAbusing this command can result in a ban or mute!'
+  adminchat-char: '@'
+  adminchat-format: '&0[&4Staff Chat&0]&f &6%sender%&7: %message%'
+  message-send-format: '&6Me &7-> %player%&8: &7%message%'
+  message-receive-format: '&7%sender% -> &6Me&8: &7%message%'
+  error-reply: '&cYou do not have anyone to reply to'
+  clearchat-message: '&2The chat has been cleared!'
+  error-clearchat: '&cThat server does not exist'
+  fakeplayers-toggled: '&6Fake players has been turned %status%&6!'
+  fakeplayers-message: '&6The number has been changed.'
+  error-fakeplayers-input: '&cThe argument you provided is not a number'
+  error-maintenance-toggle: '&cMaintenance mode is already %status%'
+  maintenance-toogled: '&6Maintenance mode has been turned %status%!'
+  maintenance-version-message: '&cMaintenance'
+  maintenance-message: '&cThe server is on maintenance. Join back later!'
+  server-full-message: '&cThe server is full, you cannot connect!'
+  report-usage: '&cUsage: /%command% <player> <reason>'
+  broadcast-usage: '&cUsage: /%command% <message>'
+  maintenance-usage: '&cUsage: /%command% <off:on>'
+  message-usage: '&cUsage: /%command% <player> <message>'
+  reply-usage: '&cUsage: /%command% <message>'
+  clearchat-usage: '&cUsage: /%command% [server]'
+  fakeplayers-usage: '&cUsage: /%command% <online:max:toggle> [number]'
+
+permissions:
+  report-send: 'bessentials.report'
+  report-staff: 'bessentials.report'
+  adminchat-view: 'bessentials.view'
+  adminchat-send: 'bessentials.send'
+  motd-receive: 'bessentials.motd'
+  message-send: 'bessentials.pm'
+  message-send-color: 'bessentials.pm.color'
+  broadcast-send: 'bessentials.globalbroadcast'
+  clearchat: 'bessentials.clearchat'
+  fakeplayers: 'bessentials.fakeplayers'
+  vipslot: 'bessentials.fulljoin'
+  maintenance: 'bessentials.maintenance'
+  maintenance-whitelist: 'bessentials.maintenance.join'
+
+server-motds:
+  Server1:
+    - 'Welcome to Server1'
+    - 'Enjoy your stay!'
+  Server2:
+    - 'Welcome to Server2'
+    - 'Enjoy your stay!'
+
+icons:
+  - 'server-icon1.png'
+  - 'server-icon2.png'
+
+favicon-rotate: 10
+
+playerlist-text:
+  - 'Welcome to the server'
+  - '❤ Welcome ❤'

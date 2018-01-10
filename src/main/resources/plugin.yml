@@ -1,0 +1,5 @@
+name: BungeeEssentials
+main: me.jaime29010.essentials.Main
+author: [jaime29010]
+version: ${project.version}
+depends: [RedisBungee]
